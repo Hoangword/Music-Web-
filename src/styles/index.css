@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.sidebar-item:hover {
+    background-color: #282828;
+    transition: all 0.3s;
+}
+
+.music-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s;
+}
+
+#video {
+    transform: scaleX(-1);
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.emotion-container {
+    display: none;
+}
